@@ -1,5 +1,5 @@
 class ExpenseTracker:
-    def _init_(self):
+    def __init__(self):
         self.expenses = []
 
     def add_expense(self, category, amount):
@@ -57,5 +57,5 @@ def main():
             print("Invalid choice. Please enter a number between 1 and 4.")
 
 
-if _name_ == "_main_":
-    main()
+if __name__ == "__main__":
+    main()
